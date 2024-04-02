@@ -1,0 +1,98 @@
+html {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: arial, sans-serif;
+}
+
+.flag {
+  height: 100px;
+  width: auto;
+  position: absolute;
+  top: 60px;
+  right: 20px;
+}
+
+#main-doc header {
+  color: #000;
+  font-weight: bold;
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 270px;
+  width: 280px;
+  height: 100%;
+  border-right: solid grey;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  width: 100%;
+  border-top: 1px solid;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin-left: 15px;
+}
+
+.facts li {
+  list-style: none;
+}
+
+ul {
+  padding: 0;
+}
+
+#main-doc {
+  margin-left: 290px;
+  margin-top: 20px;
+}
+
+p {
+  margin-left: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+}
+
+.germany {
+  margin: 10px;
+  padding-top: 5px;
+  text-align: center;
+  display: block;
+  font-size: 1.8rem;
+  color: #000;
+  font-weight: bold;
+}
+code {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 480px) {
+  body {
+    background-color: lightyellow;
+  }
+}
